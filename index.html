@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>남원시청</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes">
+	<script src="jquery-1.11.1.min.js"></script>
+	
+</head>
+<body>
+	<div id="popup" class="pc">
+		<div class="blind">팝업광고 영역</div>
+		<ul class="pslide">
+			<li class="simg1 top"><a href="#none"></a></li>
+			<li class="simg2"><a href="#none"></a></li>
+		</ul>
+		<div class="wrap">
+			<a href="#none" class="prev"><img src="main1_images/t_popup_prev.png" alt="이전"></a>
+			<a href="#none" class="next"><img src="main1_images/t_popup_next.png" alt="다음"></a>
+			<div class="pagenav">
+                <div class="page1">
+                    <p class="pageslidebtn on"><a href="#none"></a></p>
+                    <p class="pageslidebtn"><a href="#none"></a></p>
+                </div>
+                <div class="page2">
+				    <p class="pagestop"><a href="#none"><img src="main1_images/control_stop_gray.png" alt="멈춤 버튼"></a></p>
+				    <p class="pageplay on"><a href="#none"><img src="main1_images/control_play_gray.png" alt="재생 버튼"></a></p>
+				</div>
+			</div>
+			<p class="todayclose">
+				<label for="todaypopupclose">오늘 하루 자동열림 해제
+					<input type="checkbox" id="todaypopupclose" name="todaypopupclose">
+				</label>
+			</p>
+		</div>
+	</div>
+	<header>
+		<div class="blind">헤더영역</div>
+		<div id="comhead"><!--탑 네비 부분-->
+			<div class="wrap">
+				<div class="l_comhead">
+					<p class="mob fs">
+						<span class="logo"><a href="index.html"><img src="main1_images/logo_nw1.png" alt="춘향남원 사랑의 1번지"></a></span>
+						<a href="#none" class="ml_comhead"><img src="main1_images/banner_more1.png" alt="더보기"></a>
+					</p>
+					<ul class="ul1 pc">
+							<li class="on"><a href="#none">행정포털</a></li>
+							<li><a href="#none">열린시장실</a></li>
+							<li><a href="#none">문화관광</a></li>
+							<li><a href="#none">읍면동포털</a></li>
+							<li><a href="#none">통합예약 · 신청시스템</a></li>
+							<li><a href="#none">(재)춘향장학재단</a></li>
+							<li><a href="#none">남원시의회</a></li>
+							<li class="hover"><a href="#none"><img src="main1_images/korea_identity2.png" alt="태극기">국가상징 알아보기</a></li>
+						</ul>
+					<div class="mob ulwrap show_l">
+						<ul class="mul1">
+							<li><a href="#none">행정포털</a></li>
+							<li><a href="#none">열린시장실</a></li>
+							<li><a href="#none">문화관광</a></li>
+							<li><a href="#none">읍면동포털</a></li>
+							<li><a href="#none">통합예약 · 신청시스템</a></li>
+							<li><a href="#none">(재)춘향장학재단</a></li>
+							<li><a href="#none">남원시의회</a></li>
+							<li class="hover"><a href="#none"><img src="main1_images/korea_identity2.png" alt="태극기">국가상징 알아보기</a></li>
+						</ul>
+						<ul class="mul2">
+							<li><a href="#none">로그인</a></li>
+							<li><a href="#none">이용안내</a></li>
+							<li class="lang"><a href="#none">LANGUAGE</a>
+								<ul class="langli">
+									<li><a href="#none">English</a></li>
+									<li><a href="#none">Chinese</a></li>
+									<li><a href="#none">Japanese</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+				<div class="r_comhead pc">
+					<ul class="noshow">
+						<li><a href="index.html"><img src="main1_images/home_btn.png" alt="메인으로"></a></li>
+						<li><a href="#none">로그인</a></li>
+						<li><a href="#none">이용안내</a></li>
+						<li class="lang"><a href="#none">LANGUAGE</a>
+							<ul class="langli">
+								<li><a href="#none">English</a></li>
+								<li><a href="#none">Chinese</a></li>
+								<li><a href="#none">Japanese</a></li>
+							</ul></li>
+					</ul>
+					<div class="popupbtn pc">
+						<p><button class="popopen on">열기</button><button class="popclose">닫기</button></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="s_head"><!--헤더 검색창있는 부분-->
+			<div class="s_head">
+				<div class="wrap">
+					<h1 class="pc">
+						<span><img src="main1_images/choonhyang.png" alt="춘향이 뒷모습"></span>
+						<a href="index.html"><img src="main1_images/logo_nw.png" alt="춘향남원 사랑의 1번지"></a>
+					</h1>
+					<div class="corona pc">
+						<a href="#none"><img src="main1_images/c_page.png" alt="코로나19 현황"></a>
+					</div>
+					<div class="search">
+						<form action="#none">
+							<input class="ss" type="text" placeholder="통합검색(찾으시는 검색어를 입력하세요)">
+							<button></button>
+						</form>
+					</div>
+					<div class="coronainfo pc">
+					   <a href="#none"><img src="main1_images/bn_cov.png" alt="코로나 19 핵심정보"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<a href="#none" class="mgnb mob"><img src="main1_images/m_home.png" alt="전체메뉴보기"></a>
+		<div id="gnb"><!--네비게이션 바-->
+			<div class="nav">
+				<ul class="tnav">
+					<li class="li m1">
+						<a href="#none">행복민원</a>
+						<div class="s_nav">	
+							<div class="mt1 wrap">
+								<div class="hwrap pc">
+									<h2>행복민원</h2>
+									<p>사랑의 도시 건강한 남원</p>
+								</div>
+								<ul class="twrap">
+									<li class="mt1_1 cl">
+										<a href="#none"><span>민원실안내</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">민원봉사실</a></li>
+											<li class="mtlili"><a href="#none">무인민원발급창구</a></li>
+											<li class="mtlili"><a href="#none">민원인 편의시설</a></li>
+										</ul>
+									</li>
+									<li class="mt1_2 cl">
+										<a href="#none"><span>민원편의서비스</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">정부24(민원24)</a></li>
+											<li class="mtlili"><a href="#none">민원1회방문처리제</a></li>
+											<li class="mtlili"><a href="#none">어디서나민원처리제</a></li>
+											<li class="mtlili"><a href="#none">행정정보공동이용</a></li>
+											<li class="nw mtlili"><a href="#none"><span>새올전자민원창구</span></a></li>
+											<li class="mtlili"><a href="#none">창구즉결민원수수료</a></li>
+											<li class="mtlili"><a href="#none">구술민원전용창구운영</a></li>
+											<li class="mtlili"><a href="#none">제증명발급</a></li>
+											<li class="mtlili"><a href="#none">목요일 야간민원실</a></li>
+											<li class="mtlili"><a href="#none">폐업신고 원스톱 서비스</a></li>
+											<li class="mtlili"><a href="#none">납세자보호관</a></li>
+											<li class="mtlili"><a href="#none">부동산중개업소</a></li>
+											<li class="mtlili"><a href="#none">행정서비스 미이행 보상제도</a></li>
+											<li class="mtlili"><a href="#none">자주묻는 질문</a></li>
+											<li class="rnw"><a href="#none">INFORMATION ON DAILY LIFE</a></li>
+										</ul>
+									</li>
+									<li class="mt1_3 cl">
+										<a href="#none"><span>여권민원</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">여권민원안내</a></li>
+											<li class="mtlili"><a href="#none">여권개요</a></li>
+											<li class="mtlili"><a href="#none">여권신청</a></li>
+											<li class="mtlili"><a href="#none">여권교부 및 우편수령</a></li>
+										</ul>
+									</li>
+									<li class="mt1_4 cl">
+										<a href="#none"><span>복합민원</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">사전심사청구제</a></li>
+											<li class="mtlili"><a href="#none">민원인후견인제</a></li>
+											<li class="mtlili"><a href="#none">민원편람(민원서식)</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="li m2">
+						<a href="#none">소통과 참여</a>
+						<div class="s_nav">
+							<div class="mt2 wrap">
+								<div class="hwrap pc">
+									<h2>소통과 참여</h2>
+									<p>사랑의 도시 건강한 남원</p>
+								</div>
+								<ul class="twrap">
+									<li class="mt2_1 cl">
+										<a href="#none"><span>시정소식</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">공지사항</a></li>
+											<li class="mtlili"><a href="#none">읍면동 소식</a></li>
+											<li class="mtlili"><a href="#none">일일/주간동향</a></li>
+											<li class="mtlili"><a href="#none">공연/행사</a></li>
+											<li class="mtlili"><a href="#none">시험/채용</a></li>	
+											<li class="mtlili"><a href="#none">인사발령</a></li>	
+											<li class="mtlili"><a href="#none">고시공고</a></li>	
+											<li class="mtlili"><a href="#none">공시송달</a></li>	
+											<li class="mtlili"><a href="#none">입법/행정예고</a></li>	
+											<li class="mtlili"><a href="#none">남원시보</a></li>	
+											<li class="mtlili"><a href="#none">무연분묘 개장공고</a></li>	
+											<li class="mtlili"><a href="#none">타기관 소식</a></li>	
+										</ul>
+									</li>
+									<li class="mt2_2 cl">
+										<a href="#none"><span>시정홍보</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">보도자료</a></li>
+											<li class="mtlili"><a href="#none">홍보동영상</a></li>
+											<li class="mtlili"><a href="#none">시정소식(수어)</a></li>
+											<li class="mtlili"><a href="#none">시정소식지</a></li>
+											<li class="mtlili"><a href="#none">뉴스레터</a></li>
+											<li class="nw mtlili"><a href="#none"><span>춘향찰칵</span></a></li>
+											<li class="nw mtlili"><a href="#none"><span>방송에 소개된 남원</span></a></li>
+											<li class="nw mtlili"><a href="#none"><span>각종 간행물</span></a></li>
+										</ul>
+									</li>
+									<li class="mt2_3 cl">
+										<a href="#none"><span>시민제안</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">민원신청하기</a></li>
+											<li class="mtlili"><a href="#none">나의민원보기</a></li>
+											<li class="mtlili"><a href="#none">공직비위 익명신고</a></li>
+											<li class="mtlili"><a href="#none">국민생각함</a></li>
+											<li class="mtlili"><a href="#none">(구)시민의소리 조회</a></li>
+										</ul>
+									</li>
+									<li class="mt2_4 cl">
+										<a href="#none"><span>규제신고센터</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">규제혁신신고센터</a></li>
+											<li class="mtlili"><a href="#none">구제혁신안내</a></li>
+											<li class="mtlili"><a href="#none">규제입증요청</a></li>
+											<li class="mtlili"><a href="#none">규제혁신신고</a></li>
+										</ul>
+									</li>
+									<li class="mt2_5 cl">
+										<a href="#none"><span>시민사랑방</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">시민사랑방이란?</a></li>
+											<li class="mtlili"><a href="#none">시민원탁회의</a></li>
+											<li class="mtlili"><a href="#none">정책대화</a></li>
+											<li class="mtlili"><a href="#none">민원마켓</a></li>
+										</ul>
+									</li>
+									<li class="mt2_6 cl">
+										<a href="#none"><span>적극행정</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">적극행정이란?</a></li>
+											<li class="mtlili"><a href="#none">교육 및 우수사례</a></li>
+											<li class="mtlili"><a href="#none">소극적행정 신고하기</a></li>
+											<li class="mtlili"><a href="#none">법령유권해석</a></li>
+										</ul>
+									</li>
+									<li class="mt2_7 cl">
+										<a href="#none"><span>시민참여</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">자유게시판</a></li>
+											<li class="mtlili"><a href="#none">칭찬합니다♡</a></li>
+											<li class="mtlili"><a href="#none">구인/구직/홍보</a></li>
+											<li class="mtlili"><a href="#none">남원시열린위원회</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="li m3">
+						<a href="#none">분야별정보</a>
+						<div class="s_nav">
+							<div class="mt3 wrap">
+								<div class="hwrap pc">
+									<h2>분야별정보</h2>
+									<p>사랑의 도시 건강한 남원</p>
+								</div>
+								<ul class="twrap">
+									<li class="mt3_1 cl">
+										<a href="#none"><span>교육/복지</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">평생학습도시</a></li>
+											<li class="mtlili"><a href="#none">평생학습관</a></li>
+											<li class="mtlili"><a href="#none">춘향장학재단</a></li>
+											<li class="mtlili"><a href="#none">시립도서관(어린이청소년)</a></li>
+											<li class="mtlili"><a href="#none">남원시 복지정보</a></li>
+											<li class="mtlili"><a href="#none">여성 · 다문화</a></li>
+											<li class="mtlili"><a href="#none">아동 · 청소년</a></li>
+											<li class="mtlili"><a href="#none">장애인 · 어르신</a></li>
+											<li class="mtlili"><a href="#none">승화원 · 승화당 등</a></li>
+											<li class="mtlili"><a href="#none">학자금대출 이자지원</a></li>
+											<li class="mtlili"><a href="#none">청년주거비지원</a></li>
+										</ul>
+									</li>
+									<li class="mt3_2 cl">
+										<a href="#none"><span>경제/기업</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">투자유치환경</a></li>
+											<li class="mtlili"><a href="#none">투자지원제도</a></li>
+											<li class="mtlili"><a href="#none">물가정보</a></li>
+											<li class="mtlili"><a href="#none">일자리정보</a></li>
+											<li class="mtlili"><a href="#none">시장정보</a></li>
+											<li class="mtlili"><a href="#none">공유경제</a></li>
+											<li class="mtlili"><a href="#none">지방공기업</a></li>
+											<li class="mtlili"><a href="#none">남원사랑상품권</a></li>
+											<li class="rnw"><a href="#none">남원시중소기업우수제품</a></li>
+										</ul>
+									</li>
+									<li class="mt3_3 cl">
+										<a href="#none"><span>농업정보센터</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">남원농업</a></li>
+											<li class="mtlili"><a href="#none">농업기술센터</a></li>
+											<li class="mtlili"><a href="#none">영농정보</a></li>
+											<li class="mtlili"><a href="#none">영농소식</a></li>
+											<li class="mtlili"><a href="#none">농기계임대</a></li>
+											<li class="mtlili"><a href="#none">귀농귀촌</a></li>
+											<li class="mtlili"><a href="#none">축산업</a></li>
+										</ul>
+									</li>
+									<li class="mt3_4 cl">
+										<a href="#none"><span>상하수도/환경</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">상수도</a></li>
+											<li class="mtlili"><a href="#none">하수도</a></li>
+											<li class="mtlili"><a href="#none">요천생태습지공원</a></li>
+											<li class="mtlili"><a href="#none">환경생활정보</a></li>
+										</ul>
+									</li>
+									<li class="mt3_5 cl">
+										<a href="#none"><span>차량/교통</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">교통안내</a></li>
+											<li class="mtlili"><a href="#none">공영주차장안내</a></li>
+											<li class="nw mtlili"><a href="#none"><span>주정차단속 알림</span></a></li>
+											<li class="mtlili"><a href="#none">어린이 교통공원</a></li>
+										</ul>
+									</li>
+									<li class="mt3_6 cl">
+										<a href="#none"><span>건설/도시주택</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">옥외광고</a></li>
+											<li class="mtlili"><a href="#none">가로등 정보</a></li>
+											<li class="mtlili"><a href="#none">주거환경개선사업</a></li>
+											<li class="mtlili"><a href="#none">건축인허가</a></li>
+											<li class="mtlili"><a href="#none">도로건설</a></li>
+											<li class="mtlili"><a href="#none">도시관리계획</a></li>
+											<li class="mtlili"><a href="#none">정보통신공사</a></li>
+											<li class="nw mtlili"><a href="#none"><span>빈집정보</span></a></li>
+										</ul>
+									</li>
+									<li class="mt3_7 cl">
+										<a href="#none"><span>안전재난/민방위</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">재난안전대책본부</a></li>
+											<li class="mtlili"><a href="#none">기상정보</a></li>
+											<li class="nw mtlili"><a href="#none">국민행동요령</a></li>
+											<li class="mtlili"><a href="#none">민방위</a></li>
+											<li class="mtlili"><a href="#none">안전길잡이</a></li>
+											<li class="mtlili"><a href="#none">무더위쉼터 안내</a></li>
+											<li class="mtlili"><a href="#none">지진대피시설 안내</a></li>
+											<li class="nw mtlili"><a href="#none"><span>풍수해보험</span></a></li>
+											<li class="nw mtlili"><a href="#none"><span>안심콜(080) 지원서비스</span></a></li>
+										</ul>
+									</li>
+									<li class="mt3_8 cl">
+										<a href="#none"><span>보건의료</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">진료서비스</a></li>
+											<li class="mtlili"><a href="#none">민원서비스</a></li>
+											<li class="mtlili"><a href="#none">보건사업</a></li>
+											<li class="mtlili"><a href="#none">위생서비스</a></li>
+											<li class="mtlili"><a href="#none">지원서비스</a></li>
+											<li class="mtlili"><a href="#none">보건상담 서비스</a></li>
+											<li class="nw mtlili"><a href="#none"><span>정신건강검진</span></a></li>
+											<li class="mtlili"><a href="#none">코로나19 상황 알림</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="li m4">
+						<a href="#none">정보공개</a>
+						<div class="s_nav">
+							<div class="mt4 wrap">
+								<div class="hwrap pc">
+									<h2>정보공개</h2>
+									<p>사랑의 도시 건강한 남원</p>
+								</div>
+								<ul class="twrap">
+									<li class="mt4_1 cl">
+										<a href="#none"><span>행정정보공개</span></a>
+										<ul class="mtli">
+											<li class="mtlili"><a href="#none">정보공개제도안내</a></li>
+											<li class="nw mtlili"><a href="#none">정보공개청구</a></li>
+											<li class="mtlili"><a href="#none">정보공개목록</a></li>
+											<li class="mtlili"><a href="#none">사전공표정보</a></li>
+											<li class="mtlili"><a href="#none">부패공직자현황</a></li>
+											<li class="mtlili"><a href="#none">공공데이터 개방</a></li>
+											<li class="mtlili"><a href="#none">정책실명제</a></li>
+										</ul>
+									</li>
+									<li class="mt4_2 cl">
+										<a href="#none"><span>업무추진비 공개</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">시장</a></li>
+											<li class="mtlili"><a href="#none">부시장</a></li>
+											<li class="mtlili"><a href="#none">국/소장</a></li>
+											<li class="mtlili"><a href="#none">부서장</a></li>
+										</ul>
+									</li>
+									<li class="mt4_3 cl">
+										<a href="#none"><span>감사내역 공개</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">감사알림</a></li>
+											<li class="mtlili"><a href="#none">종합감사결과</a></li>
+											<li class="mtlili"><a href="#none">사전 컨설팅감사 제도</a></li>
+										</ul>
+									</li>
+									<li class="mt4_4 cl">
+										<a href="#none"><span>계약정보공개</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">남원시 발주계획</a></li>
+											<li class="mtlili"><a href="#none">입찰 · 개찰정보</a></li>
+											<li class="mtlili"><a href="#none">계약현황</a></li>
+											<li class="mtlili"><a href="#none">수의계약현황</a></li>
+											<li class="mtlili"><a href="#none">하도급계약현황</a></li>
+											<li class="mtlili"><a href="#none">준공검사</a></li>
+											<li class="mtlili"><a href="#none">대금지급</a></li>
+										</ul>
+									</li>
+									<li class="mt4_5 cl">
+										<a href="#none"><span>예산공개</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">재정공시</a></li>
+											<li class="mtlili"><a href="#none">결산서</a></li>
+											<li class="nw mtlili"><a href="#none"><span>세입세출재정정보</span></a></li>
+											<li class="mtlili"><a href="#none">용역과제 공유방</a></li>
+											<li class="mtlili"><a href="#none">조직정보공개</a></li>
+											<li class="mtlili"><a href="#none">석면해체 제거일정</a></li>
+										</ul>
+									</li>
+									<li class="mt4_6 cl">
+										<a href="#none"><span>주민참여예산</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">주민참여예산 알림</a></li>
+											<li class="mtlili"><a href="#none">예산사업제안</a></li>
+											<li class="mtlili"><a href="#none">예산위원회 활동</a></li>
+											<li class="nw mtlili"><a href="#none"><span>예산낭비 신고</span></a></li>
+										</ul>
+									</li>
+									<li class="mt4_7 cl">
+										<a href="#none"><span>열린행정</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">시정방침</a></li>
+											<li class="mtlili"><a href="#none">주요업무계획</a></li>
+											<li class="mtlili"><a href="#none">통계정보</a></li>
+											<li class="nw mtlili"><a href="#none"><span>자치법규</span></a></li>
+											<li class="mtlili"><a href="#none">행정서비스헌장</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li class="li m5">
+						<a href="#none">춘향골 남원</a>
+						<div class="s_nav">
+							<div class="mt5 wrap">
+								<div class="hwrap pc">
+									<h2>춘향골 남원</h2>
+									<p>사랑의 도시 건강한 남원</p>
+								</div>
+								<ul class="twrap">
+									<li class="mt5_1 cl">
+										<a href="#none"><span>남원소개</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">기본현황</a></li>
+											<li class="mtlili"><a href="#none">인구현황</a></li>
+											<li class="mtlili"><a href="#none">행정구역</a></li>
+											<li class="mtlili"><a href="#none">행정지도</a></li>
+											<li class="mtlili"><a href="#none">남원기네스</a></li>
+											<li class="mtlili"><a href="#none">시정백서</a></li>
+											<li class="mtlili"><a href="#none">남원의 역사</a></li>
+										</ul>
+									</li>
+									<li class="mt5_2 cl">
+										<a href="#none"><span>남원의 상징</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">시화/시목/시조</a></li>
+											<li class="mtlili"><a href="#none">CI 및 슬로건</a></li>
+											<li class="mtlili"><a href="#none">시민헌장</a></li>
+											<li class="mtlili"><a href="#none">남원의찬가</a></li>
+											<li class="mtlili"><a href="#none">시민의노래</a></li>
+											<li class="nw mtlili"><a href="#none"><span>행사음악(국악버전)</span></a></li>
+										</ul>
+									</li>
+									<li class="mt5_3 cl">
+										<a href="#none"><span>자매/우호 결연</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">자매결연</a></li>
+											<li class="mtlili"><a href="#none">우호결연</a></li>
+										</ul>
+									</li>
+									<li class="mt5_4 cl">
+										<a href="#none"><span>시청안내</span></a>
+										<ul class ="mtli">
+											<li class="mtlili"><a href="#none">부서(직원)안내</a></li>
+											<li class="mtlili"><a href="#none">조직도</a></li>
+											<li class="mtlili"><a href="#none">청사 · 시설물안내</a></li>
+											<li class="mtlili"><a href="#none">찾아오시는 길</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>							
+						</div>
+					</li>
+					<li class="all">
+						<a href="#none">
+							<span class="burgerline">
+								<span class="burger1"></span>
+								<span class="burger2"></span>
+								<span class="burger3"></span>
+							</span>
+						전체메뉴</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</header>
+	<section id="main">
+		<h2 class="blind">
+			메인 콘텐츠 영역
+		</h2>
+		<div class="quick pc">
+			<div class="q_bnt">
+				<a href="#none">
+					<p>빠른 메뉴</p>
+					<span></span>
+				</a>
+			</div>
+			<div class="q_box">
+				<div class="q_title">
+					<h2>빠른메뉴 서비스</h2>
+					<p>자주찾는 메뉴를 선택하여 설정하시면, 빠른 서비스를 이용하실 수 있습니다.</p>
+				</div>
+				<div class="q_icon">
+					<ul>
+						<li class="icon1">
+							<a href="#none">문화관광</a>
+						</li>
+						<li class="icon2">
+							<a href="#none">여성친화도시</a>
+						</li>
+						<li class="icon3">
+							<a href="#none">시립도서관</a>
+						</li>
+						<li class="icon11">
+							<a href="#none">시민제안</a>
+						</li>
+						<li class="icon12">
+							<a href="#none">보건상담</a>
+						</li>
+						<li class="icon14">
+							<a href="#none">통합예약</a>
+						</li>
+						<li class="icon15">
+							<a href="#none">영농상담</a>
+						</li>
+						<li class="icon21">
+							<a href="#none">여권민원</a>
+						</li>
+						<li class="icon22">
+							<a href="#none">귀농귀촌</a>
+						</li>
+						<li class="icon26">
+							<a href="#none">농기계임대</a>
+						</li>
+					</ul>
+				</div>
+				<div class="q_check">
+					<ul>
+						<li>
+							<label for="icon1">
+								<input type="checkbox" value="문화관광" name="icon_select" id ="icon1">
+							문화관광</label>
+						</li>
+						<li>
+							<label for="icon2">
+								<input type="checkbox" value="여성친화도시" name="icon_select" id ="icon2">
+							여성친화도시</label>
+						</li>
+						<li>
+							<label for="icon3">
+								<input type="checkbox" value="시립도서관" name="icon_select" id ="icon3">
+							시립도서관</label>
+						</li>
+						<li>
+							<label for="icon4">
+							<input type="checkbox" value="시민제안" name="icon_select" id ="icon4">
+							시민제안</label>
+						</li>
+						<li>
+							<label for="icon5">
+								<input type="checkbox" value="보건상담" name="icon_select" id ="icon5">
+							보건상담</label>
+						</li>
+						<li>
+							<label for="icon6">
+								<input type="checkbox" value="통합예약" name="icon_select" id ="icon6">
+							통합예약</label>
+						</li>
+						<li>
+							<label for="icon7">
+								<input type="checkbox" value="영농상담" name="icon_select" id ="icon7">
+							영농상담</label>
+						</li>
+						<li>
+							<label for="icon8">
+								<input type="checkbox" value="여권민원" name="icon_select" id ="icon8">
+							여권민원</label>
+						</li>
+						<li>
+							<label for="icon9">
+								<input type="checkbox" value="귀농귀촌" name="icon_select" id ="icon9">
+							귀농귀촌</label>
+						</li>
+						<li>
+							<label for="icon10">
+								<input type="checkbox" value="농기계임대" name="icon_select" id ="icon10">
+							농기계임대</label>
+						</li>
+						<li>
+							<label for="icon11">
+								<input type="checkbox" value="예산공개" name="icon_select" id ="icon11">
+							예산공개</label>
+						</li>
+						<li>
+							<label for="icon12">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon12">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon13">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon13">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon14">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon14">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon15">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon15">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon16">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon16">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon17">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon17">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon18">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon18">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon19">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon19">
+							감사공개</label>
+						</li>
+						<li>
+							<label for="icon20">
+								<input type="checkbox" value="감사공개" name="icon_select" id ="icon20">
+							감사공개</label>
+						</li>
+					</ul>
+				</div>
+				<div class="q_iconset cl">
+					<a href="#none" class="fset">초기설정</a>
+					<a href="#none" class="cset">취소</a>
+					<a href="#none" class="done">설정완료</a>
+				</div>
+			</div>
+		</div>
+		<div class="tabmenu">
+    		<div class="wrap">
+				<div class="weather cl pc">
+					<span class="wicon">
+						<img src="main1_images/weather_cloud_sun.gif" alt="구름 많음">
+					</span>
+					<p class="winfo">
+						<span>02월 28일 (월) 09시 36분</span>
+						<strong>11℃</strong>
+						<span>미세먼지 평균농도
+							<em>26㎍/㎥</em>
+						</span>
+						<span>대기환경지수
+							<em>좋음</em>
+						</span>
+					</p>
+				</div>
+				<div class="com">
+					<ul class="common">
+            	    	<li class="life" data-div ="life"><a href="#none">생활 · 민원</a></li>
+            	    	<li class ="gov on" data-div ="gov"><a href="#none">행정 · 소식</a></li>	
+						<li class="cul" data-div ="cul"><a href="#none">문화 · 관광</a></li>
+					</ul>
+				</div>
+				<div class="slogan pc">
+					<img src="main1_images/sj_2022.png" alt="하나되는 시민 행복도시 남원">
+				</div>
+		    </div>
+		</div>
+		<div class="tabcont">
+			<div id="cul" class="tab">
+				<div class="wrap">
+					<div class="cont1">
+						<div class="visit cl">
+							<div class="l_visit">
+								<a href="#none">
+									<img src="main2_images/gg_bg01_1winter1.jpg" alt="바래봉가는 길">
+									<span class="visit_title">
+										<strong>바래봉 가는 길</strong>
+										<span>
+											만나는 사람, 풀 한 포기, 나무 한 그루, 모든 생명들의 속삭임을 귀 기울여 들어보세요.
+										</span>
+									</span>
+									<p class="more pc"><span></span></p>
+								</a>
+							</div>
+							<div class="r_visit">
+								<ul>
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_bg02.jpg" alt="광한루원">
+										</a>
+										<span class="text">월궁의 광한청허부
+											<strong>광한루원</strong>
+										</span>
+										<span class="more pc">
+											<a href="#none">자세히보기</a>
+										</span>
+									</li>
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_bg03.jpg" alt="백두대간생태교육장전시관">
+										</a>
+										<span class="text">우리국토의 등뼈를 이루는 산줄기
+											<strong>백두대간생태교육장전시관</strong>
+										</span>
+										<span class="more pc">
+											<a href="#none">자세히보기</a>
+										</span>
+									</li>
+								</ul>
+							</div>
+							<div class="icon_visit">
+							    <ul>
+							    	<li><a href="#none">주요명소 투어</a></li>
+							    	<li><a href="#none">관광택시 예약</a></li>
+							    	<li><a href="#none">관광안내 예약</a></li>
+							    	<li><a href="#none">관광안내 책자</a></li>
+							    	<li><a href="#none">맛있는 먹거리</a></li>
+							    	<li><a href="#none">편안한 잘거리</a></li>
+							    </ul>
+							</div>
+						</div>
+						<div class="event cl">
+							<div class="l_event">
+								<a href="#none">
+									<strong>
+										공연 · 행사
+									</strong>
+									<p>춘향골 명품도시 남원여행에 마음이 설레다</p>
+									<em>go</em>
+								</a>
+							</div>
+							<div class="r_event cl">
+								<div class="r_event_text">
+									<h3>추천관광코스</h3>
+									<p>문화와 전통이 어우러진 행복도시 남원</p>
+								</div>
+								<p class="more"><a href="#none">전체보기</a></p>
+								<ul class="course">
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_photo01.jpg" alt="남원여행 1박 2일">
+											<p><span></span><span class="text">남원여행 1박 2일</span></p>
+										</a>
+									</li>
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_photo02.jpg" alt="테마관광">
+											<p><span></span><span class="text">테마관광</span></p>
+										</a>
+									</li>
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_photo03.jpg" alt="지리산 탐방">
+											<p><span></span><span class="text">지리산탐방</span></p>
+										</a>
+									</li>
+									<li>
+										<a href="#none">
+											<img src="main2_images/gg_photo04.jpg" alt="계절관광">
+											<p><span></span><span class="text">계절관광</span></p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="gov" class="on tab">
+				<div class="wrap">
+					<div class="cont2">
+						<div class="s_info cl">
+							<div class="l_s_info">
+								<ul class="slide">
+									<li><a href="#none"><img src="main1_images/sn1.png" alt="여성직업교육훈련 훈련생 모집"></a></li>
+									<li><a href="#none"><img src="main1_images/sn2.png" alt="코로나19 행정명령 이행시설 소상공인 재난지원금 지급"></a></li>
+									<li><a href="#none"><img src="main1_images/sn3.png" alt="2022 남원시가 이렇게 달라집니다"></a></li>
+									<li><a href="#none"><img src="main1_images/sn4.png" alt="청년 주거비 지원 신청"></a></li>
+									<li><a href="#none"><img src="main1_images/sn5.png" alt="저소득계층 임대보증금 무이자 지원"></a></li>
+									<li><a href="#none"><img src="main1_images/sn6.gif" alt="남원형 배달앱 월매요 출시"></a></li>
+									<li><a href="#none"><img src="main1_images/sn7.png" alt="긴급재난지원금 지급"></a></li>
+									<li><a href="#none"><img src="main1_images/sn8.png" alt="남원시민 모두를 위한 혜택 시민안전보험"></a></li>
+									<li><a href="#none"><img src="main1_images/sn9.png" alt="사회적 거리두기 조정"></a></li>
+								</ul>
+								<ul class="slidenav">
+									<li class="prev"><a href="#none"></a></li>
+									<li class="stop"><a href="#none"></a></li>
+									<li class="play off"><a href="#none"></a></li>
+									<li class="next"><a href="#none"></a></li>
+									<li class="count"><span class="p_count">1 </span>/ 9</li>
+								</ul>
+							</div>
+							<div class="r_s_info">
+								<div class="mayor">
+									<img src="main1_images/mayor.png" alt="이환주 시장">
+									<p><span>열린시장실</span><br> 남원시장<br>이환주입니다.</p>
+									<ul class="hope">
+										<li><a href="#none">시장에게 바란다</a></li>
+										<li><a href="#none">매니페스토</a></li>
+									</ul>
+								</div>
+								<ul class="q_icon">
+									<li><a href="#none">청사안내</a></li>
+									<li><a href="#none">부서(직원)안내</a></li>
+									<li><a href="#none">조직도</a></li>
+									<li><a href="#none">찾아오시는 길</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="notice cl">
+							<div class="l_notice">
+								<div class="nt nt1 on" data-nt ="1">
+									<h3><a href="#none">공지사항</a></h3>
+								</div>
+								<div class="ntc select" id= "ntc1">
+									<ul>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>04</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>청년동아리 지원사업 동아리 모집 안내</strong>
+													<span>우리 시 청년들의 상호 교류 장을 마련하고, 분야별 역량강화 기회를 제공하는 등 다양한 청..</span>
+												</span>
+											</a>
+										</li>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>04</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>2022년도 미래환경산업육성 융자 안내</strong>
+													<span>「2022년 3월 미래환경산업육성융자 융자 지원사업」 시행계획을 다음과같이 공고하오니, 본 ..</span>
+												</span>
+											</a>
+										</li>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>04</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>지역문화인력(신규) 공개모집 안내</strong>
+													<span>지역문화진흥원에서 추진 중인 '2022 지역문화인력 지원사업'과 관련하여 남원문화원에서 근..</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>03</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>제 20대 대통령선거 사전투표 안내</strong>
+													<span>제 20대 대통령 선거 사전투표 안내 및 남원시 사전투표 장소를 안내합니다.</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+									<p class="more"><a href="#none">더 보기</a></p>
+								</div>	
+								<div class="nt nt2" data-nt ="2">
+									<h3><a href="#none">공연/행사</a></h3>
+								</div>
+								<div class="ntc" id="ntc2">
+									<ul>
+										<li>
+											<a href="#none" class="cl">
+												<span class="list_none">
+													<strong>현재 진행중인 공연/행사 내용이 없습니다.</strong>
+													<span></span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="list_none">
+													<strong>현재 진행중인 공연/행사 내용이 없습니다.</strong>
+													<span></span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="list_none">
+													<strong>현재 진행중인 공연/행사 내용이 없습니다.</strong>
+													<span></span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="list_none">
+													<strong>현재 진행중인 공연/행사 내용이 없습니다.</strong>
+													<span></span>
+												</span>
+											</a>
+										</li>
+									</ul>
+									<p class="more"><a href="#none">더 보기</a></p>
+								</div>	
+								<div class="nt nt3" data-nt ="3">
+									<h3><a href="#none">시험/채용</a></h3>
+								</div>
+								<div class="ntc" id="ntc3">
+									<ul>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>03</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>봄철 산불전문예방진화대 및 산불감시원 추가 모집 공고</strong>
+													<span>남원시에서 2022년 봄철 산불예방 활동 및 진화를 위한 산불전문예방진화대, 산상감시원을..</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>02</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>(재)남원시화장품산업지원센터 직원 채용공고</strong>
+													<span>재단법인 남원시화장품산업지원센터 직원을 다음과 같이 공개 모집 하오니 참신하고 유능한 인재의..</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>02</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>지역관광 청년미디어기획자 양성사업 청년인턴 모집 재공고</strong>
+													<span>남원시 관광발전을 위해 함께 할 열정과 감각 있는 문화관광기획 분야의 청년미디어기획자를 양..</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>03</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>농업기술센터 농업기계팀 임대사업소 기간제근로자 채용 재공고</strong>
+													<span>2022년도 남원시 농업기술센터 농기계 임대사업소 운영 기간제근로자 공개경쟁 채용계획을 ..</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+									<p class="more"><a href="#none">더 보기</a></p>
+								</div>	
+								<div class="nt nt4"  data-nt ="4">
+									<h3><a href="#none">고시/공고</a></h3>
+								</div>
+								<div class="ntc" id="ntc4">
+									<ul>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>04</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>제20대 대통령선거 및 제 8회 전국동시지방 선거 임시공휴일에 따른 남원시..</strong>
+													<span>남원시 문화예술과 - 5404(2022. 3. 3.)호와 관련하여 제 20대 대통령선거 및 제 8회 ..</span>
+												</span>
+											</a>
+										</li>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>04</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>남원시 도로명주소 개별고시</strong>
+													<span >「도로명주소법」 제 11조 제 3항, 제 12조 제 5항 및 같은 법 시행령 제 26조 제 3항, 제 6항, ..</span>
+												</span>
+											</a>
+										</li>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>02</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>2022년 아영 매산마을 스노우멜팅 설치공사 신기술, 특허 공법선정 제안서..</strong>
+													<span>남원시에서 시행하는 「2022년 아영 매산 마을 스노우멜팅 설치공사 신기술·특허 공법선정」 제안..</span>
+												</span>
+											</a>
+										</li>
+										<li class="new">
+											<a href="#none" class="cl">
+												<span class="date pc">
+													<strong>03</strong>
+													<span>2022.03</span>
+												</span>
+												<span class="text">
+													<strong>담배 소매인 행정처분(영업정지)에 관련한 공고</strong>
+													<span>담배사업법 제 17조 제 2항 제 7호 및 동법시행규칙 제 11조 제 3항의 규정에 의거 담배사업법..</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+									<p class="more"><a href="#none">더 보기</a></p>
+								</div>	
+								<div class="nt nt5">
+									<h3><a href="#none">입법/행정</a></h3>
+								</div>
+								<div class="nt nt6">
+									<h3><a href="#none">보도자료</a></h3>
+								</div>
+								<div class="nt nt7">
+									<h3><a href="#none">코로나 19</a></h3>
+								</div>
+								<p class="btn cl pc">
+									<a class="prev" href="#none"></a>
+									<a class="next" href="#none"></a>
+								</p>
+							</div>
+							<div class="r_notice">
+								<div class="n_place">
+									<h3>알림마당</h3>
+									<ul class="slidenav">
+										<li class="count"><span class="p_count">1 </span>/ 12</li>
+										<li class="prev"><a href="#none"></a></li>
+										<li class="stop"><a href="#none"></a></li>
+										<li class="play off"><a href="#none"></a></li>
+										<li class="next"><a href="#none"></a></li>
+									</ul>
+									<ul class="n_slide">
+										<li><a href="#none"><img src="main1_images/pn1.png" alt="춘향애인 글판 문안 공모안내"></a></li>
+										<li><a href="#none"><img src="main1_images/pn2.png" alt="계량기 동파 미리 예방합시다"></a></li>
+										<li><a href="#none"><img src="main1_images/pn3.png" alt="기초 연금 모의계산 자세히 보기"></a></li>
+										<li><a href="#none"><img src="main1_images/pn4.png" alt="예비부모·임산부 영양제 지원(엽산제, 철분제)"></a></li>
+										<li><a href="#none"><img src="main1_images/pn5.png" alt="안심식당 함께바꿔요! 건강한 식문화"></a></li>
+										<li><a href="#none"><img src="main1_images/pn6.png" alt="정령치 순환버스 운행 자세히 보기"></a></li>
+										<li><a href="#none"><img src="main1_images/pn7.png" alt="탄소중립실천포인트 일상속 탄소중립 실천이 혜택으로 돌아온다"></a></li>
+										<li><a href="#none"><img src="main1_images/pn8.png" alt="인감증명서와 동일한 본인서명사실확인서!"></a></li>
+										<li><a href="#none"><img src="main1_images/pn9.png" alt="지진대피시설 국민재난안전포털"></a></li>
+										<li><a href="#none"><img src="main1_images/pn10.png" alt="정치 후원금 만드는 성숙한 정치문화"></a></li>
+										<li><a href="#none"><img src="main1_images/pn11.png" alt="풍수해 보험 국민 누구나 받을 수 있는 혜택"></a></li>
+										<li><a href="#none"><img src="main1_images/pn12.png" alt="기본형 공익직불제 등록신청하세요"></a></li>
+									</ul>
+								</div>
+								<div class="q_place">
+									<ul>
+										<li><a href="#none">한눈에 보는 <span>인구정책</span></a></li>
+										<li><a href="#none"><span>투자유치</span><br>환경</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="photo cl">
+							<div class="l_photo">
+								<img src="main1_images/chalkak.png" alt="춘향찰칵">
+								<p>사진과 영상으로 보는 남원의 역사 기록물 아카이브를 만나보세요.</p>
+								<a href="#none"><span class="pc">더보기</span><span class="mob"></span></a>
+								<ul>
+									<li><a href="#none"><span><img src="main1_images/gall1.jpg" alt="지리산 허브밸리 겨울정원"></span><p>지리산 허브밸리 겨울정원</p></a></li>
+                                    <li><a href="#none"><span><img src="main1_images/gall3.jpg" alt="예루원, 화인당 앞마당 야간조명"></span><p>예루원, 화인당 앞마당 야간조명</p></a></li>
+								</ul>
+							</div>
+							<div class="r_photo">
+								<h3><img src="main1_images/nmain_sns_tit.gif" alt="터치 남원"><span>새로운 소식을 전해드립니다.</span></h3>
+								<ul>
+									<li><a href="#none">페이스북</a></li>
+									<li><a href="#none">유튜브</a></li>
+									<li><a href="#none">인스타그램</a></li>
+									<li><a href="#none">블로그</a></li>
+									<li><a href="#none">시정소식지</a></li>
+									<li><a href="#none">시정소식(수어)</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="life" class="tab">
+				
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="blind">홈페이지 상세정보</div>
+		<div class="banner pc">
+			<div class="bnr">
+				<div class="wrap">
+					<div class="bnrtitle cl">
+						<h3>배너모음</h3>
+						<ul>
+							<li><a href="#none" class="prev"><img src="main1_images/banner_prev.png" alt="이전"></a></li>
+							<li class="off play"><a href="#none"><img src="main1_images/popup_control_play.png" alt="재생"></a></li>
+							<li class="stop"><a href="#none"><img src="main1_images/banner_stop.png" alt="멈춤"></a></li>
+							<li><a href="#none" class="next"><img src="main1_images/banner_next.png" alt="다음"></a></li>
+						</ul>
+					</div>
+					<div class="bnrli">
+						<ul>
+							<li><a href="#none"><img src="main1_images/f_bnr1.png" alt="전라북도 의회"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr2.gif" alt="대한민국 김치협회"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr3.gif" alt="2021개인정보보호 인식주간 캠페인"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr4.png" alt="중앙부처 법령 유권해석"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr5.gif" alt="국민생각함"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr6.gif" alt="상훈업무관리"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr7.gif" alt="국민안전방송"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr8.jpg" alt="국립공원"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr9.jpg" alt="불량식품 뿌리뽑기 신고 전화: 국번없이 1399"></a></li>
+							<li><a href="#none"><img src="main1_images/f_bnr10.jpg" alt="한국농어촌공사"></a></li>
+						</ul>
+					</div>
+					<div class="bnrmore">
+						<p><a href="#none"><img src="main1_images/banner_more.png" alt="배너 더보기"></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f_info wrap cl">
+			<ul>
+				<li>
+					<a href="#none">개인정보처리방침&nbsp;&nbsp;|</a>
+				</li>
+				<li>
+					<a href="#none">&nbsp;&nbsp;저작권정책&nbsp;&nbsp;|</a>
+				</li>
+				<li>
+					<a href="#none">&nbsp;&nbsp;청사안내&nbsp;&nbsp;|</a>
+				</li>
+				<li>
+					<a href="#none">&nbsp;&nbsp;찾아오시는 길</a>
+				</li>
+			</ul>
+			<span>본 홈페이지에 게시된 이메일주소가 자동 수집되는 것을 거부하며, 위반 시 정보통신망법에 의해 처벌됩니다.</span>
+			<address>
+				<span>[ 55738 ] 전라북도 남원시 시청로 60</span> |<br class="pc"> 대표전화 <a href="tel:0636330444">063-620-6114</a> | 팩스번호 063-633-0444<br>
+				<span>Copyright &copy; NAMWON CITY. All Rights Reserved.</span>
+			</address>
+			<div class="comfirm pc">
+				<ul>
+					<li><a href="#none"><img src="main1_images/s_kisa.gif" alt="kjsia 한국정보보호산업협회마크"></a></li>
+					<li><img src="main1_images/g_c_mark1.gif" alt="과학기술 정보통신부 우수컨텐츠 인증마크"></li>
+					<li><img src="main1_images/pci-wamark.png" alt="과학기술정보통신부 WA WEB접근성품질인증마크 한국웹접근성인증평가원"></li>
+					<li><img src="main1_images/remote_img.png" alt="과학기술정보통신부 WA WEB접근성품질인증마크 한국웹접근성인증평가원"></li>
+				</ul>
+				<p class="top"><a href="#"></a></p>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
