@@ -5,3 +5,4 @@
 - 프로젝트2_호원대학교 메인 리뉴얼 코드 [URL] https://github.com/Jiyunhi/Project_2_Howon_university.git
 - 프로젝트3_하이퍼니쳐 가구 홈페이지 [URL] https://github.com/Jiyunhi/Project_3_Hi_furniture.git
 - 디자인포트폴리오 코드 [URL] https://github.com/Jiyunhi/designed-portfolio
+- 수정한 디자인포트폴리오 코드 [URL] https://github.com/Jiyunhi/Modification-Designed-portfolio.git
